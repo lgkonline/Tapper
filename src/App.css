@@ -1,0 +1,28 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    display: block;
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: .5rem .7rem;
+    background-color: #2d98da;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #45aaf2;
+}
+
+.btn:disabled {
+    background-color: #eee;
+}
